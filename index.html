@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Previsão do tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <input id="inputCity" class="input-city" placeholder="Digite o nome da cidade">
+        <button onclick="buscarPrevisaoAtual()">
+            <img class="lupa" src="./imagens/lupabusca.png" alt="Buscar">
+        </button>
+        <div id="infoPrinc" class="infoPrinc">
+            <h2 class="cidadeNome">Tempo em Rio de Janeiro</h2>
+            <div class="temp-info">
+                <p class="temp">28ºC</p>
+                <div class="caixa-menor">
+                    <img class="icone" src="https://openweathermap.org/img/wn/04n.png" alt="Nuvens Dispersas">
+                    <p class="desc">Nuvens Dispersas</p>
+                </div>
+            </div>
+            <p class="temp-min">Mín.: 18ºC</p>
+            <p class="temp-max">Máx.: 32ºC</p>
+            <p class="umid">Umidade 70%</p>
+            <div class="temp-dias">
+                <div class="dia dia1">
+                    <h3 class="dia-semana">Dia Semana</h3>
+                    <p class="temp-min">Mín.: 18ºC</p>
+                    <p class="temp-max">Máx.: 32ºC</p>
+                    <div class="caixa-menor">
+                        <img class="icone" src="https://openweathermap.org/img/wn/04n.png" alt="Nuvens Dispersas">
+                        <p class="desc">Nuvens Dispersas</p>
+                    </div>
+                </div>
+                <div class="dia dia2">
+                    <h3 class="dia-semana">Dia Semana</h3>
+                    <p class="temp-min">Mín.: 18ºC</p>
+                    <p class="temp-max">Máx.: 32ºC</p>
+                    <div class="caixa-menor">
+                        <img class="icone" src="https://openweathermap.org/img/wn/04n.png" alt="Nuvens Dispersas">
+                        <p class="desc">Nuvens Dispersas</p>
+                    </div>
+                </div>
+                <div class="dia dia3">
+                    <h3 class="dia-semana">Dia Semana</h3>
+                    <p class="temp-min">Mín.: 18ºC</p>
+                    <p class="temp-max">Máx.: 32ºC</p>
+                    <div class="caixa-menor">
+                        <img class="icone" src="https://openweathermap.org/img/wn/04n.png" alt="Nuvens Dispersas">
+                        <p class="desc">Nuvens Dispersas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script> <!-- Adicione esta linha para linkar o arquivo script.js -->
+</body>
+
+</html>
